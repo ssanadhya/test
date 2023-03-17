@@ -5,5 +5,6 @@
 class ParentClass {
     public:
         ParentClass();
-        std::string getName();
+        virtual std::string func1();
+        virtual std::string func2();
 };
